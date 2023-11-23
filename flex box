@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+.flx-box{display:flex;flex-direction:row;width:100%;justify-content: space-between;}
+.flx-box-column{border:1px solid gray;height:200px;width:30%;}
+@media (max-width: 992px) {
+				.flx-box{flex-direction:column;}
+.flx-box-column {width: 100%;margin: 20px 0;}
+			}
+   </style>
+  </head>
+  <body>
+<div class="flx-box">
+<div class="flx-box-column"></div>
+<div class="flx-box-column"></div>
+<div class="flx-box-column"></div>
+</div>
+  </body>
+</html>
